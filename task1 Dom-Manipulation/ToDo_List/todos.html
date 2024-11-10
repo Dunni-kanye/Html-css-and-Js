@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Todo List</title>
+</head>
+<body>
+    <h1>todos</h1>
+    <form id="form">
+       <div class="to-do">
+        <input type="text" class="input" id="input" placeholder="Enter your To_Do List" autocomplete="off">
+        <button type="submit" id="add-btn">Add</button>
+       </div>
+        <input type="text" class="input" id="search" placeholder="Search" autocomplete="off">
+        <ul class="todos" id="todos"></ul>
+    </form>
+    <small>Left click to toggle completed. <br>Right click to delete todo</small>
+    <script src="todos.js"></script>
+</body>
+</html>

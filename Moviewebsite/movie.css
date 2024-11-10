@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    list-style: none;
+
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    height: 80px;
+    margin: auto;
+}
+.navBarWrapper{
+    background-color: rgb(100, 100, 234);
+}
+ul{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+#search{
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+}
+.search{
+    margin: auto;
+    width: 400px;
+}
+.images{
+    padding-top: 20px;
+}
+.images img{
+    width:465px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.titleRating{
+    display: flex;
+    justify-content: space-between;
+}
+
+.movieMainContainner{
+    display: flex;
+    justify-content:space-between;
+    width: 92vw;
+    margin: auto;
+}

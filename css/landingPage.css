@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+.start{
+    display: flex; 
+    padding-top: 30px ;
+    gap: 40px;
+    position: relative;
+
+}
+.start .listen ul{
+    display: flex;
+    gap: 18px;
+    list-style: none;
+    font-size: 12px;
+    position:absolute;
+    right: 110px;
+    font-family:'Times New Roman', Times, serif;
+}
+/* .navbutton-button{
+    position: absolute;
+    right: 60px;
+    top: 10px;
+    padding: 80px 80px;
+} */
+.image{
+    padding-left: 70px;
+    font-size: 30px;
+
+} 
+.navbutton button{
+    padding: 10px;
+    color: red;
+    border: 1.5px red solid;
+    border-radius: 8px;
+    padding: 5px 18px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 8px;
+    position: relative;
+    left: 1000px;
+}
+.navigate:hover{
+    border-radius: 5px;
+    background-color: gainsboro;
+}
+.second-header{
+    position: relative;
+    padding: 30px;
+    font-size: 16px;
+    color: rgb(13, 13, 69);
+    left: 35px;
+    top: 110px;
+}
+.smaller-header{
+    position: absolute;
+    padding-left: 30px;
+    top: 280px;
+    color: rgb(110, 110, 139);
+    left: 35px;
+    font-size: 10px;
+    
+}
+  .button-container{
+    display: flex;
+    top: 310px;
+    position: absolute;
+    left: 55px;
+    
+
+}
+.for-individuals{
+    background-color: red;
+    color: white;
+    padding: 5px 18px;
+    font-size: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: none;
+} 
+
+.for-businesses{
+    background-color: transparent;
+    color:solid red;
+    padding: 5px 18px;
+    border: 1px solid red;
+    font-size: 10px;
+    border-radius: 4px; 
+    
+}
+
+.gif-clas{
+    position: relative;
+    top: 100px;
+
+}
+
+.gif{
+    width: 500px;
+    position: absolute;
+    right: 50px;
+    top: 150px;
+    
+
+}
+.what-we-do{
+    position: absolute;
+    padding: 80px; 
+    position: relative;   
+    left: 200px;
+    top: 300px;
+    font-size: 15px;
+}
+.highlight{
+    color: red;
+    font-weight: bold;
+}
+.button-holder{
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+    position: relative;
+    top: 170px;
+    position: relative;
+    left: 250px;
+
+
+   
+}
+
+.holder{
+    background-color: red;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+    padding:20px 13px 12px 15px;
+    font-weight: 5px;
+    border: none;
+    height: 260px;
+    width:26%;
+    margin: 10px;
+    position: relative;
+    top: 20px;
+
+     
+    
+
+
+}
+.circle{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 40px;
+    position: relative;
+    right: 30px;
+    top: -10px;
+    
+
+
+}
+.square{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 40px;
+    position: relative;
+    right: 30px;
+    top: -10px;
+}
+
+.how_we_do_it {
+    position: relative;
+    padding: 90px;     
+    left: 200px;
+    top: 300px;
+    font-size: 15px;
+    color:rgb(13, 13, 69);
+} 
+.We{
+    color: red;
+    font-weight: bold;
+}  
+
+.technology_training{
+    display: flex;
+    gap: 18px;
+    font-size: 12px;
+    position:absolute;
+    font-family:'Times New Roman', Times, serif;
+    top: 1090px;
+    left: 300px;
+    color: red;
+}
+    
+

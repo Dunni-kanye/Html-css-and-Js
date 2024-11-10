@@ -1,0 +1,382 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    
+}
+.main_container{
+    width: 90vw;
+    margin: auto;
+}
+
+
+.main{
+    display:flex; 
+    justify-content: space-around;
+    padding: 20px 80px;
+
+}
+
+.functions a{
+    text-decoration: none;
+    width: 170px;
+    margin-left: 10px;
+    color: black;
+}
+.functions{
+    margin-top: 11px;
+    
+}
+.functions button{
+    margin-left: 170px;
+    gap: 50px;
+}
+.help{
+    color: #2995E2;
+    line-height: 60px;
+   
+}
+
+.box2{
+    display: flex;
+    justify-content: space-around;
+    padding: auto;
+    align-items: center;
+
+}
+.box1of-box2{
+    width: 556px;
+    height: 186px;
+    top: 256px;
+    left: 94px;
+    gap: 0px;
+    opacity: 0px; 
+    font-size: 20px;
+    font-weight: 700;  
+    padding-top: 90px;
+}
+.box1of-box2 h6{
+    width: 428px;
+    line-height: 65px;
+    top: 475px;
+    left: 94px;
+    gap: 0px;
+    opacity: 0px;
+    color: #3F3F3F;
+    font-family: Cairo;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+
+    
+
+}
+.box2of-box2{
+    width: 300px;
+    height: 100px;
+    top: 195px;
+    margin-left: 10px;
+    gap: 0px;
+    padding-right: 600px;
+    
+}
+
+.get{
+    width: 143px;
+    height: 44px;
+    gap: 0px;
+    opacity: 0px;
+    margin: -155px;
+    background-color: #2995E2;
+    border: none;
+    color: white;
+    
+}
+.border{
+    margin-bottom: -28px;
+}
+.three{
+    line-height: 80px;
+
+}
+.watch{
+    width: 143px;
+    height: 44px;
+    margin-left: 200px;
+    background-color: white;
+    border: none;
+    
+
+    /* margin-top: 100px; */
+}
+.play{
+    margin-bottom: -14px;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 500px;
+    padding-right: 500px;
+    
+}
+.cloud{
+    padding-left: 200px;
+}
+.aboutUs{
+    padding-top: 40px;
+}
+.language{
+    padding-left: 230px;
+    padding-top: 40px;
+    width: 819px;
+    height: 108px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Cairo;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+.tent{
+    padding-left: 570px;
+    padding-bottom: 80px;
+
+}
+.ourServices{
+    color: #2995E2;
+}
+.some{
+    font-size: 13px;
+    font-weight: 300;
+}
+.box4{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.guardian{
+    padding-top: 75px;
+
+}
+.family{
+        padding-bottom: 500px;
+        width: 550px;
+}
+.lorem1{
+    padding-top:30px;
+    width: 350px;
+    height: 144px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Cairo;
+    line-height: 30px;
+
+    text-align: left;
+
+    gap: 0px;
+    opacity: 0px;
+
+}
+.serrr{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.get2{
+    width: 150px;
+    height: 50px;
+    background-color: #2995E2;
+    color: white;
+    border: none;
+    margin-left: -159px;
+    margin-bottom: 10px;
+
+}
+
+.box5{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -300px;
+}
+.helping{
+    margin-top: 150px;
+    font-weight: 300px;
+    font-size: 21px;
+}
+.lorem2{
+    font-family: Cairo;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 30px;
+
+}
+.border3{
+    width: 180px;
+    padding-left: 10px;
+    padding-top: 80px;
+    
+
+}
+.get3{
+    width: 180px;
+    height: 50px;
+    background-color: #2995E2;
+    color: white;
+    border: none;
+    margin-left: -190px;
+    margin-top: 30px;
+
+}
+.box6{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.lorem3{
+    font-family: Cairo;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.buying{
+    padding-top: 90px;
+
+}
+.box7{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 200px;
+    margin-top: 120px;
+    background-color:#2995E2;
+    width: 1100px;
+    height: 300px;
+     border: 4px solid rgb(224, 219, 219);
+}
+.special{
+    margin-top: 70px;
+    color: white;
+    margin-right: 20px;
+    line-height: 60px;
+}
+
+.img-button{
+    margin-top: 50px;
+    display: flex
+    width: 100px;
+    height: 20px;
+    line-height: 90px;
+    /* background-color: blue; */
+
+}
+.get-in-touch{
+    width: 150px;
+    height: 45px;
+    padding-bottom: -90px;
+    margin-top:40px;
+    margin-left: -150px;   
+}
+.box8{
+    border: 2px solid #2995E2;
+    margin-top: 80px;
+    height: 420px;
+}
+.consultation{
+    line-height: 30px;
+    margin-top: 30px;
+    font-weight: 8px;
+    font-size: 15px;
+    color: #3F3F3F;
+    padding-left: 30px;
+}
+.details{
+    display: flex;
+    justify-content:flex-start;
+    gap: 35px;
+}
+.full-name{
+    padding-left: 30px;
+    line-height: 35px;
+}
+.full-name input{
+    width: 530px;
+    height: 55px;
+}
+.email{
+    line-height: 35px;
+}
+.email input{
+    width: 530px;
+    height: 55px;
+}
+.email ::placeholder{
+    color: #2995E2;
+    padding-left: 30px;
+}
+.details2{
+    display: flex;
+    justify-content:flex-start;
+    gap: 35px;
+    padding-top: 30px;
+}
+.full-name ::placeholder{
+    color: #2995E2;
+    padding-left: 30px;
+}
+.submite{
+    background-color: #2995E2;
+    width: 510px;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: 200px;
+    border: none;
+    color: white;
+}
+.box9{
+    display: flex;
+    justify-content: space-around;
+}
+.help2{
+    line-height: 20px;
+    color: #2995E2;
+}
+.box9{
+    line-height: 30px;
+    margin-top: 50px;
+    border: 1px solid #3F3F3F;
+    padding-top: 50px;
+    height: 300px;
+    border-color: #878787;
+    font-weight: 4px;
+    font-size: 15px;
+    border-bottom: none;
+
+}
+.line{
+    margin-top:-60px;
+    width: 1178px;
+    line-height: 50px;
+    line-gap-override: 20px;
+    padding-left: 30px;
+}
+.copy{
+    display: flex;
+    justify-content: space-around;
+    color: #878787;
+    font-weight: 9px;
+    font-size: 15px;
+    padding-right: 300px;
+    height: 200px;
+    padding-top: 40px;
+}
+.copy1{
+    margin-right:40px;
+}
+.copy2{
+    
+}
+.accept{
+    color: #2995E2;
+    padding-left: 20px;
+}

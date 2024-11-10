@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./image/pexels-ann-h-45017-1989820.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgb(167, 72, 88);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color:white;
+    font-size: 10rem;
+    text-align: center;
+    opacity: 0.4;
+}
+
+form {
+    box-shadow: 0 4px 10px rgb(78, 74, 74);
+    max-width: 100%;
+    width: 400px;
+}
+
+.input {
+    color: #444;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+    border: 2px solid rgb(186, 72, 91);
+    border-radius: 15px;
+    
+}
+.to-do{
+    display: flex;
+    justify-content: space-around;
+}
+
+.input::placeholder {
+    color:  rgb(120, 8, 120);
+    font-size: 10px;
+}
+
+.input:focus {
+    outline-color: rgb(120, 8, 120);
+
+   
+}
+
+#add-btn {
+    background-color: white;
+    border: none;
+    color: rgb(209, 55, 81);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 10px;
+}
+
+.todos {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todos li {
+    border-top: 1px solid #e5e5e5;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    /* border: 1px solid rgb(186, 72, 91); */
+}
+
+.todos li.completed {
+    color: #948888;
+    text-decoration: line-through;
+}
+
+.todos li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+small {
+    color: #b5b5b5;
+    margin-top: 3rem;
+    text-align: center;
+}
